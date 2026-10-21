@@ -1161,7 +1161,7 @@ h1 {
   gap: 50px;
   padding: 66px;
   border-radius: 40px;
-  background: linear-gradient(135deg, #285955, #173f3d);
+  background: linear-gradient(135deg, #165682, #0e3451);
   color: white;
   box-shadow: var(--shadow);
 }
@@ -1183,7 +1183,7 @@ h1 {
 }
 
 .cta-card .eyebrow {
-  color: #acd0c8;
+  color: #9ec1d8;
 }
 
 .cta-card h2 {
@@ -1198,7 +1198,14 @@ h1 {
 .cta-card p {
   max-width: 590px;
   margin: 20px 0 0;
-  color: #c0d0cb;
+  color: #c5d9e8;
+}
+
+.cta-card .app-store-button {
+  width: max-content;
+  min-width: 210px;
+  justify-self: end;
+  white-space: nowrap;
 }
 
 .support-section {
