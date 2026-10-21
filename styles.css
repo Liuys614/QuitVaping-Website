@@ -318,7 +318,7 @@ h1 {
   width: 470px;
   height: 470px;
   border-radius: 44% 56% 60% 40% / 44% 44% 56% 56%;
-  background: linear-gradient(145deg, rgba(184, 198, 184, 0.72), rgba(234, 223, 210, 0.82));
+  background: linear-gradient(145deg, rgba(35, 124, 182, 0.22), rgba(224, 236, 245, 0.65));
   transform: rotate(-7deg);
 }
 
@@ -1142,9 +1142,10 @@ h1 {
   width: min(430px, 94%);
   max-width: 100%;
   height: auto;
-  border: 8px solid #111412;
-  border-radius: 52px;
-  box-shadow: 0 36px 84px rgba(0, 0, 0, 0.34);
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  filter: drop-shadow(0 32px 72px rgba(0, 0, 0, 0.45)) drop-shadow(0 10px 24px rgba(0, 0, 0, 0.25));
   transform: rotate(2deg);
 }
 
@@ -1552,8 +1553,8 @@ h1 {
 
   .privacy-phone {
     width: min(clamp(320px, 35vw, 400px), 84%);
-    border-width: 7px;
-    border-radius: 48px;
+    border: none;
+    border-radius: 0;
     aspect-ratio: 540 / 1174;
     height: auto;
   }
@@ -1699,7 +1700,8 @@ h1 {
 
   .privacy-phone {
     width: 275px;
-    border-radius: 46px;
+    border: none;
+    border-radius: 0;
     transform: none;
   }
 
