@@ -328,10 +328,10 @@ h1 {
   width: min(450px, 94%);
   max-width: 100%;
   height: auto;
-  border: 9px solid #151816;
-  border-radius: 58px;
-  background: #151816;
-  box-shadow: 0 42px 96px rgba(19, 34, 46, 0.24), 0 12px 30px rgba(19, 34, 46, 0.15);
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  filter: drop-shadow(0 32px 72px rgba(19, 34, 46, 0.28)) drop-shadow(0 10px 24px rgba(19, 34, 46, 0.16));
   transform: rotate(1.2deg);
 }
 
@@ -1502,8 +1502,8 @@ h1 {
 
   .hero-phone {
     width: min(clamp(340px, 38vw, 420px), 84%);
-    border-width: 8px;
-    border-radius: 52px;
+    border: none;
+    border-radius: 0;
     aspect-ratio: 540 / 1174;
     height: auto;
   }
@@ -1628,8 +1628,8 @@ h1 {
 
   .hero-phone {
     width: 290px;
-    border-width: 7px;
-    border-radius: 48px;
+    border: none;
+    border-radius: 0;
     transform: none;
   }
 
@@ -1976,8 +1976,9 @@ body {
 
 .app-pitch-card img {
   width: 100%;
-  border-radius: 18px;
-  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.35);
+  border-radius: 0;
+  box-shadow: none;
+  filter: drop-shadow(0 16px 36px rgba(0, 0, 0, 0.45));
 }
 
 .guide-sidebar {
